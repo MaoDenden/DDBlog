@@ -18,10 +18,10 @@ class Config: NSObject {
     // 服务器地址
     static func getApiAddress() -> String {
         if Config.isRelease() {
-            return "http://dis.baidu.com"
+            return "http://dis.baidu.com/"
         }
         else {
-            return "http://dev.baidu.com"
+            return "http://dev.baidu.com/"
         }
     }
     
