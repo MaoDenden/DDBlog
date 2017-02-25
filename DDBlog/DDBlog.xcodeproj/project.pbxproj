@@ -18,6 +18,7 @@
 		028B7A0A1E6147DA008D934D /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B7A091E6147DA008D934D /* MyViewController.swift */; };
 		028B7A0C1E614823008D934D /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B7A0B1E614823008D934D /* NavigationViewController.swift */; };
 		028B7A0E1E614A1C008D934D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B7A0D1E614A1C008D934D /* Config.swift */; };
+		028B7A141E616AD0008D934D /* UIView+DD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B7A131E616AD0008D934D /* UIView+DD.swift */; };
 		622F651B9AF42A3C88883C4A /* Pods_DDBlog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095537ADBB1965B45E4782F0 /* Pods_DDBlog.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		028B7A091E6147DA008D934D /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		028B7A0B1E614823008D934D /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		028B7A0D1E614A1C008D934D /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		028B7A131E616AD0008D934D /* UIView+DD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+DD.swift"; sourceTree = "<group>"; };
 		095537ADBB1965B45E4782F0 /* Pods_DDBlog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDBlog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12AFA04E9553C1CBADDA8DEE /* Pods-DDBlog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDBlog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDBlog/Pods-DDBlog.debug.xcconfig"; sourceTree = "<group>"; };
 		D73107849820A306A00AC59D /* Pods-DDBlog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDBlog.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDBlog/Pods-DDBlog.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +129,8 @@
 		028B79F81E612A96008D934D /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				028B7A0F1E616A3C008D934D /* Extension */,
+				028B7A101E616A3C008D934D /* Tool */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -159,6 +163,21 @@
 			children = (
 			);
 			path = Widget;
+			sourceTree = "<group>";
+		};
+		028B7A0F1E616A3C008D934D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				028B7A131E616AD0008D934D /* UIView+DD.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		028B7A101E616A3C008D934D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		39415226C84356D67324A351 /* Pods */ = {
@@ -301,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028B7A141E616AD0008D934D /* UIView+DD.swift in Sources */,
 				028B7A0C1E614823008D934D /* NavigationViewController.swift in Sources */,
 				028B7A041E614794008D934D /* LoginViewController.swift in Sources */,
 				028B7A0E1E614A1C008D934D /* Config.swift in Sources */,

@@ -16,17 +16,21 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.tabBar.barTintColor = UIColor.black
         
         let circleController = CircleViewController()
         let circleNavigation = NavigationViewController(rootViewController: circleController)
+        circleNavigation.title = "圈子"
         self.addChildViewController(circleNavigation)
         
         let publishController = PublishViewController()
-        let publishNavigation = NavigationViewController(rootViewController: publishController)
-        self.addChildViewController(publishNavigation)
+//        let publishNavigation = NavigationViewController(rootViewController: publishController)
+        publishController.title = "写博客"
+        self.addChildViewController(publishController)
         
         let myController = MyViewController()
         let myNavigation = NavigationViewController(rootViewController: myController)
+        myNavigation.title = "我的"
         self.addChildViewController(myNavigation)
         
     }
